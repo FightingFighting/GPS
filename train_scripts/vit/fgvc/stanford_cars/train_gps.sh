@@ -1,16 +1,3 @@
-#!/bin/bash
-
-
-#Set job requirements
-#SBATCH -n 1
-#SBATCH -t 120:00:00
-#SBATCH -p gpu
-#SBATCH --gpus-per-node=1
-
-
-
-source activate prompt
-
 
 gpu_id=0
 bz=32
