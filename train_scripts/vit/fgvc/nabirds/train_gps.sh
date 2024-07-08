@@ -16,7 +16,7 @@ gpu_id=0
 bz=32
 lr=0.0001
 
-python train_gps.py /gpfs/work5/0/prjs0370/zhizhang/dataset/FGVC \
+python train_gps.py /path/to/FGVC/ \
     --dataset nabirds \
     --num-classes 555 --simple-aug \
     --model vit_base_patch16_224_in21k \
