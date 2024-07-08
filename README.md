@@ -18,7 +18,7 @@ You can also download them from [baiduyun](https://pan.baidu.com/s/1rCMDz1bEXBA7
 
 # Train
 Take the Stanford Cars task in FGVC for example:
-1. Replace '/path/to/FGVC/' with your path of the FGVC dataset in `train_scripts/vit/fgvc/stanford_cars.sh`
+1. Replace `/path/to/FGVC/` with your path of the FGVC dataset in `train_scripts/vit/fgvc/stanford_cars.sh`
 2. cd GPS
 3. run
    `bash train_scripts/vit/fgvc/stanford_cars.sh`
