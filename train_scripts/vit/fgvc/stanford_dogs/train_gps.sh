@@ -16,7 +16,7 @@ bz=64
 lr=0.0001
 
 
-python train_gps.py /gpfs/work5/0/prjs0370/zhizhang/dataset/FGVC \
+python train_gps.py /path/to/FGVC \
         --dataset dogs \
         --num-classes 120 --simple-aug\
         --model vit_base_patch16_224_in21k \
