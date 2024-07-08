@@ -8,12 +8,12 @@ Please follow [SSF](https://github.com/dongzelian/SSF) for installation.
 ## FGVC
 Please follow [VPT](https://github.com/KMnP/vpt) to download them.
 
-you can also download form [baiduyun](https://pan.baidu.com/s/15KWOBREl4oH-yObile3iFQ?pwd=nc9f) code: nc9f
+You can also download them from [baiduyun](https://pan.baidu.com/s/15KWOBREl4oH-yObile3iFQ?pwd=nc9f) code: nc9f
 
 ## VTAB 
 Please follow [SSF](https://github.com/dongzelian/SSF) to download them.
 
-you can also download form [baiduyun](https://pan.baidu.com/s/1rCMDz1bEXBA7O7dMclD29w?pwd=r1s7) code: r1s7
+You can also download them from [baiduyun](https://pan.baidu.com/s/1rCMDz1bEXBA7O7dMclD29w?pwd=r1s7) code: r1s7
 
 
 # Train
