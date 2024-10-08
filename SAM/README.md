@@ -15,7 +15,7 @@ bash train_scripts/train_sam_gps.sh
 For other methods, like full, adapter, and ssf, you can also run the corresponding scripts in the `train_scripts`.
 
 
-## evaluation
+## Evaluation
 ```
 bash test_scripts/test_sam_gps.sh
 ```
