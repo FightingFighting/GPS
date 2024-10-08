@@ -17,4 +17,4 @@ source activate sam
 
 
 python test.py --config ./configs/cod-sam-vit-b.yaml \
---model /gpfs/work5/0/prjs0370/zhizhang/projects/SAM_Adapter/save/polyp_ssf/model_epoch_best.pth
+--model ./save/polyp_ssf/model_epoch_best.pth
