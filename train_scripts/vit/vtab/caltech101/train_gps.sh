@@ -2,7 +2,7 @@ gpu_id=0
 bz=16
 lr=0.002
 
-python train_gps.py /gpfs/work5/0/prjs0370/zhizhang/dataset/vtab-1k/caltech101 \
+python train_gps.py path/to/vtab-1k/caltech101 \
     --dataset caltech101 \
     --num-classes 102 --direct-resize --no-aug \
     --model vit_base_patch16_224_in21k \
@@ -20,7 +20,4 @@ python train_gps.py /gpfs/work5/0/prjs0370/zhizhang/dataset/vtab-1k/caltech101 \
     --gpu_id $gpu_id \
     --log-wandb \
     --experiment vtab \
-    --no-prefetcher \
-    --contrast-aug \
-    --contrastive
-
+    --contrast-aug --no-prefetcher --contrastive

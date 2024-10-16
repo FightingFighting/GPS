@@ -1,8 +1,8 @@
 gpu_id=1
-bz=16
-lr=0.0015
+bz=32
+lr=0.002
 
-python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/diabetic_retinopathy \
+python train_gps.py path/to/vtab-1k/diabetic_retinopathy \
     --dataset diabetic_retinopathy \
     --num-classes 5 --direct-resize --no-aug \
     --model vit_base_patch16_224_in21k \
@@ -16,8 +16,9 @@ python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/diabetic_retinopathy \
     --output output/ \
     --amp --tuning-mode part --pretrained \
     --pruning --pruning_method gradient_perCell \
-    --times_para 2 \
+    --times_para 1 \
     --gpu_id $gpu_id \
     --log-wandb \
     --experiment vtab \
     --contrast-aug --no-prefetcher --contrastive
+

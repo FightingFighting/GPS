@@ -1,8 +1,8 @@
 gpu_id=2
 bz=16
-lr=0.003
+lr=0.0015
 
-python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/dmlab \
+python train_gps.py path/to/vtab-1k/dmlab \
     --dataset dmlab \
     --num-classes 6 --direct-resize --no-aug \
     --model vit_base_patch16_224_in21k \
@@ -19,5 +19,6 @@ python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/dmlab \
     --times_para 1 \
     --gpu_id $gpu_id \
     --log-wandb \
-     --experiment vtab \
+    --experiment vtab \
     --contrast-aug --no-prefetcher --contrastive
+

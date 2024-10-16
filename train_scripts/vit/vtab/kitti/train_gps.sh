@@ -1,8 +1,8 @@
 gpu_id=7
 bz=16
-lr=0.002
+lr=0.001
 
-python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/kitti \
+python train_gps.py path/to/vtab-1k/kitti \
     --dataset kitti \
     --num-classes 4 --direct-resize --no-aug \
     --model vit_base_patch16_224_in21k \
@@ -21,3 +21,4 @@ python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/kitti \
     --log-wandb \
     --experiment vtab \
     --contrast-aug --no-prefetcher --contrastive
+

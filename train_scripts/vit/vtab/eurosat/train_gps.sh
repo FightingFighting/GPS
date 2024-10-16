@@ -1,8 +1,8 @@
 gpu_id=4
-bz=32
-lr=0.001
+bz=16
+lr=0.002
 
-python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/eurosat \
+python train_gps.py path/to/vtab-1k/eurosat \
     --dataset eurosat \
     --num-classes 10 --direct-resize --no-aug \
     --model vit_base_patch16_224_in21k \
@@ -21,3 +21,4 @@ python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/eurosat \
     --log-wandb \
     --experiment vtab \
     --contrast-aug --no-prefetcher --contrastive
+

@@ -2,12 +2,12 @@ gpu_id=0
 bz=32
 lr=0.007
 
-python train_gps.py /gpfs/work5/0/prjs0370/zhizhang/dataset/vtab-1k/svhn \
+python train_gps.py path/to/vtab-1k/dsprites_loc \
     --dataset dsprites_loc \
     --num-classes 16 --direct-resize --no-aug \
     --model vit_base_patch16_224_in21k \
     --epochs 100 \
-    --batch-size $bz \
+    --batch-size $bz --validation-batch-size 128\
     --opt adam  --weight-decay 0 \
     --warmup-lr 1e-7 --warmup-epochs 10 \
     --lr $lr --min-lr 1e-8 \
@@ -21,3 +21,4 @@ python train_gps.py /gpfs/work5/0/prjs0370/zhizhang/dataset/vtab-1k/svhn \
     --log-wandb \
     --experiment vtab \
     --contrast-aug --no-prefetcher --contrastive
+

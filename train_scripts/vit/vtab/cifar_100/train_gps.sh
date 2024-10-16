@@ -2,7 +2,7 @@ gpu_id=0
 bz=32
 lr=0.01
 
-python train_gps.py /gpfs/work5/0/prjs0370/zhizhang/dataset/vtab-1k/cifar \
+python train_gps.py path/to/vtab-1k/cifar \
     --dataset cifar100 \
     --num-classes 100 --direct-resize --no-aug \
     --model vit_base_patch16_224_in21k \

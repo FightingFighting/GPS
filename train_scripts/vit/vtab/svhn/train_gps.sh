@@ -2,7 +2,7 @@ gpu_id=0
 bz=32
 lr=0.005
 
-python train_gps.py /gpfs/work5/0/prjs0370/zhizhang/dataset/vtab-1k/svhn \
+python train_gps.py path/to/vtab-1k/svhn \
     --dataset svhn \
     --num-classes 10 --direct-resize --no-aug \
     --model vit_base_patch16_224_in21k \
@@ -21,3 +21,4 @@ python train_gps.py /gpfs/work5/0/prjs0370/zhizhang/dataset/vtab-1k/svhn \
     --log-wandb \
     --experiment vtab \
     --contrast-aug --no-prefetcher --contrastive
+

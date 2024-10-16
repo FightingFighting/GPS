@@ -1,8 +1,8 @@
 gpu_id=7
-bz=32
-lr=0.005
+bz=16
+lr=0.0005
 
-python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/dsprites_ori \
+python train_gps.py path/to/vtab-1k/dsprites_ori \
     --dataset dsprites_ori \
     --num-classes 16 --direct-resize --no-aug \
     --model vit_base_patch16_224_in21k \
@@ -21,3 +21,5 @@ python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/dsprites_ori \
     --log-wandb \
     --experiment vtab \
     --contrast-aug --no-prefetcher --contrastive
+
+

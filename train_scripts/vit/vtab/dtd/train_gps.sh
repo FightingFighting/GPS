@@ -1,8 +1,8 @@
 gpu_id=0
 bz=16
-lr=0.0015
+lr=0.002
 
-python train_gps.py /gpfs/work5/0/prjs0370/zhizhang/dataset/vtab-1k/dtd \
+python train_gps.py path/to/vtab-1k/dtd \
     --dataset dtd \
     --num-classes 47 --direct-resize --no-aug \
     --model vit_base_patch16_224_in21k \
@@ -21,5 +21,6 @@ python train_gps.py /gpfs/work5/0/prjs0370/zhizhang/dataset/vtab-1k/dtd \
     --log-wandb \
     --experiment vtab \
     --contrast-aug --no-prefetcher --contrastive
+
 
 

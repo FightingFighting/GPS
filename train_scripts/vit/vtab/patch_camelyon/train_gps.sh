@@ -1,8 +1,8 @@
 gpu_id=1
-bz=16
-lr=0.0015
+bz=32
+lr=0.004
 
-python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/patch_camelyon \
+python train_gps.py path/to/vtab-1k/patch_camelyon \
     --dataset patch_camelyon \
     --num-classes 2 --direct-resize --no-aug \
     --model vit_base_patch16_224_in21k \
@@ -21,3 +21,6 @@ python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/patch_camelyon \
     --log-wandb \
     --experiment vtab \
     --contrast-aug --no-prefetcher --contrastive
+
+
+

@@ -1,8 +1,8 @@
 gpu_id=4
 bz=16
-lr=0.0015
+lr=0.0025
 
-python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/sun397 \
+python train_gps.py path/to/vtab-1k/sun397 \
     --dataset sun397 \
     --num-classes 397 --direct-resize --no-aug \
     --model vit_base_patch16_224_in21k \
@@ -21,3 +21,5 @@ python train_gps.py /online1/ycsc_pku/liujm/zqz/data/VTAB/sun397 \
     --log-wandb \
     --experiment vtab \
     --contrast-aug --no-prefetcher --contrastive
+
+
