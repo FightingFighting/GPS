@@ -45,7 +45,4 @@ Our experiment follows [SSF](https://github.com/dongzelian/SSF).
 
 The code is built upon [SSF](https://github.com/dongzelian/SSF) and [VPT](https://github.com/KMnP/vpt).
 
-## TODO:
-upload the train scripts for vtab
-
 
