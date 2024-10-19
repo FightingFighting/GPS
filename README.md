@@ -12,10 +12,16 @@ Please follow [VPT](https://github.com/KMnP/vpt) to download them.
 
 You can also download them from [baiduyun](https://pan.baidu.com/s/15KWOBREl4oH-yObile3iFQ?pwd=nc9f) code: nc9f
 
+If you only want to download the annotation for split, please download from [fgvc_split.zip](https://github.com/user-attachments/files/17444450/fgvc_split.zip)
+
+
+
 ### VTAB 
 Please follow [SSF](https://github.com/dongzelian/SSF) to download them.
 
 You can also download them from [baiduyun](https://pan.baidu.com/s/1rCMDz1bEXBA7O7dMclD29w?pwd=r1s7) code: r1s7
+
+If you only want to download the annotation for split, please download from [vtab-1k_split.zip](https://github.com/user-attachments/files/17444442/vtab-1k_split.zip)
 
 
 ## Train
