@@ -19,7 +19,7 @@ If you only want to download the annotation for split, please download from [fgv
 ### VTAB 
 Please follow [SSF](https://github.com/dongzelian/SSF) to download them.
 
-You can also download them from [baiduyun](https://pan.baidu.com/s/1rCMDz1bEXBA7O7dMclD29w?pwd=r1s7) code: r1s7
+You can also download them from [baiduyun](https://pan.baidu.com/s/1rCMDz1bEXBA7O7dMclD29w?pwd=r1s7) code: r1s7, or [google drive](https://drive.google.com/file/d/14dTPCoWOQ_4vcPYFvjXpAvBcoqtInEZz/view?usp=sharing)
 
 If you only want to download the annotation for split, please download from [vtab-1k_split.zip](https://github.com/user-attachments/files/17444442/vtab-1k_split.zip)
 
@@ -34,7 +34,7 @@ Take the Stanford Cars task in FGVC for example:
 For the VTAB task, please see the scripts in `train_scripts/vit/vtab`. We have already updated the scripts for VTAB.
    
 ## Cite
-If this project is helpful for you, you can cite our paper:
+If this project is helpful for you, please cite our paper:
 ```
 @inproceedings{zhang2024gradient,
   title={Gradient-based Parameter Selection for Efficient Fine-Tuning},
