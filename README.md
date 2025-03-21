@@ -12,7 +12,7 @@ Please follow [VPT](https://github.com/KMnP/vpt) to download them.
 
 You can also download them from [baiduyun](https://pan.baidu.com/s/15KWOBREl4oH-yObile3iFQ?pwd=nc9f) code: nc9f or [google drive](https://drive.google.com/drive/folders/110TEuKscYJdsb3EbddzBsInotxyMnLKB?usp=sharing)
 
-If you only want to download the annotation for split, please download from [fgvc_split.zip](https://github.com/user-attachments/files/17444450/fgvc_split.zip)
+If you only want to download the annotation for split, please download it from [fgvc_split.zip](https://github.com/user-attachments/files/17444450/fgvc_split.zip)
 
 
 
