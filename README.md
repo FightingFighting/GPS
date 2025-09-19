@@ -1,5 +1,5 @@
 # GPS
-This is an official repository for the paper: [Gradient-based Parameter Selection for Efficient Fine-Tuning](https://arxiv.org/pdf/2312.10136)
+This is an official repository for our CVPR 2024 paper: [Gradient-based Parameter Selection for Efficient Fine-Tuning](https://arxiv.org/pdf/2312.10136)
 
 For the segmentation Task on the SAM model using our GPS method, please see [SAM GPS](https://github.com/FightingFighting/GPS/tree/main/SAM).
 
