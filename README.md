@@ -1,3 +1,6 @@
+We have a new finding for selection-based parameter efficient fine-tuning (PEFT). Please read our new paper: **[NeuroAda: Activating Each Neuron's Potential for Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2510.18940)** and see our official repository: **[NeuroAda](https://github.com/FightingFighting/NeuroAda)**
+
+
 # GPS
 This is an official repository for our CVPR 2024 paper: [Gradient-based Parameter Selection for Efficient Fine-Tuning](https://arxiv.org/pdf/2312.10136)
 
